@@ -1,18 +1,18 @@
-function processamento (a, b, proximaFase, gameOver){
+function processamento (a, proximaFase, gameOver){
     while(true){
         var escolha = Number(prompt("Qual opção você escolheu?"))
         if ([1,2,3,4,5].includes(escolha)){
-            if (escolha === a || escolha === b){
+            if (escolha === a){
                 location.replace(proximaFase)
             }else{
                 location.replace(gameOver)
             }
         }
+        return
     }
-    return
 }
 
-function Inicio(batman, mulherMaravilha, superMan){
+function inicio(batman, mulherMaravilha, superMan){
     while(true){
         var escolha = Number(prompt("Qual opção você escolheu?"))
         if ([1,2,3].includes(escolha)){
@@ -26,25 +26,6 @@ function Inicio(batman, mulherMaravilha, superMan){
                 location.replace(superMan)
             }
         }
+        return
     }
-    return
-}
-
-
-function trapaça(batman, mulherMaravilha, superMan, gameOver){
-    while(true){
-        var escolha = Number(prompt("Qual opção você escolheu?"))
-        if ([1,2,3,4].includes(escolha)){
-            if (escolha === 1){
-                location.replace(batman)
-            }else if (escolha === 2){
-                location.replace(mulherMaravilha)
-            }else if (escolha === 3){
-                location.replace(superMan)
-            }else{
-                location.replace(gameOver)
-            }
-        }
-    }
-    return
 }
