@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(images/cidade.png);
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+}
+.personagens{
+    width: 100px;
+    height: 120px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(2, 2, 2, 0.5);
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+li{
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.logo{
+    width: 540px;
+    height: 200px;
+    flex-grow: inherit;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    text-shadow: rgb(255, 254, 254) 2px 1px;
+}
