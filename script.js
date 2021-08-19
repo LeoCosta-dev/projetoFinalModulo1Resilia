@@ -1,7 +1,7 @@
 function processamento (a, proximaFase, gameOver){
     while(true){
         var escolha = Number(prompt("Qual opção você escolheu?"))
-        if ([1,2,3,4,5].includes(escolha)){
+        if ([1,2,3,4].includes(escolha)){
             if (escolha === a){
                 location.replace(proximaFase)
             }else{
