@@ -3,12 +3,12 @@ function processamento (a, proximaFase, gameOver){
         var escolha = Number(prompt("Qual opção você escolheu?"))
         if ([1,2,3,4].includes(escolha)){
             if (escolha === a){
-               var b = location.replace(proximaFase)
+                location.replace(proximaFase)
             }else{
-               var b = location.replace(gameOver)
+                location.replace(gameOver)
             }
         }
-        return b
+        return
     }
 }
 
